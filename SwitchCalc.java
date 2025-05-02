@@ -9,12 +9,12 @@ public class SwitchCalc {
       int b = scn.nextInt();
       
       // Asking user which operation they want to perform
-   System.out.println("please enter which type of calcultaion you want to perform");
-         char c = scn.next().charAt(0); // Taking character input for operation
+   System.out.println("please enter the operator");
+         char operator = scn.next().charAt(0); // Taking character input for operation
 
 
          // Using switch case to perform the chosen operation
-         switch (c) {
+         switch (operator) {
                case '+' :
                System.out.println(a + b);
                break ;
