@@ -28,8 +28,8 @@ public class SwitchCalc {
                System.out.println(a / b);
                break;
                case '%' :
-                  System.out.println(a % b);
-                  break;
+               System.out.println(a % b);
+               break;
                   
                   default : // If user enters any other character
                   System.out.println("you entered wrong number , please write between 1 to 5");
